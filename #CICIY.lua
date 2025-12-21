@@ -8644,8 +8644,8 @@ Window:EditOpenButton({
     CornerRadius = UDim.new(0,30),
     StrokeThickness = 1.5,
     Color = ColorSequence.new(
-        Color3.fromHex("FF0F7B"),
-        Color3.fromHex("F89B29")
+        Color3.fromHex("0E2D9C"),
+        Color3.fromHex("214DEB")
     ),
     OnlyMobile = false,
     Enabled = true,
@@ -8690,7 +8690,7 @@ local function CreateFloatingIcon()
 
     -- Stroke/Garis Tepi
     local FrameStroke = Instance.new("UIStroke")
-    FrameStroke.Color = Color3.fromHex("FF0F7B")
+    FrameStroke.Color = Color3.fromHex("0E2D9C")
     FrameStroke.Thickness = 2
     FrameStroke.Transparency = 0
     FrameStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
