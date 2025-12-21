@@ -2,7 +2,7 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "HellZone - Fish It",
-    Icon = "rbxassetid://77461382621338",
+    Icon = "rbxassetid://133414636903327",
     Author = "Premium Version",
     Folder = "HellZone",
     Size = UDim2.fromOffset(600, 360),
@@ -8583,7 +8583,7 @@ do
     about:Paragraph({
         Title = "HellZone Community",
         Desc = "Join Our Community Discord Server to get the latest updates, support, and connect with other users!",
-        Image = "rbxassetid://122210708834535",
+        Image = "rbxassetid://77461382621338",
         ImageSize = 24,
         Buttons = {
             {
@@ -8611,7 +8611,7 @@ do
     })
 
     about:Image({
-        Image = "rbxassetid://122210708834535",
+        Image = "rbxassetid://77461382621338",
         AspectRatio = "16:9",
         Radius = 9,
     })
@@ -8640,7 +8640,7 @@ Window:Tag({
 
 Window:EditOpenButton({
     Title = "HellZone - Fish It",
-    Icon = "rbxassetid://77461382621338",
+    Icon = "rbxassetid://133414636903327",
     CornerRadius = UDim.new(0,30),
     StrokeThickness = 1.5,
     Color = ColorSequence.new(
@@ -8704,7 +8704,7 @@ local function CreateFloatingIcon()
     -- Icon Gambar
     local IconImage = Instance.new("ImageLabel")
     IconImage.Name = "Icon"
-    IconImage.Image = "rbxassetid://122210708834535"
+    IconImage.Image = "rbxassetid://77461382621338"
     IconImage.BackgroundTransparency = 1
     IconImage.Size = UDim2.new(1, -4, 1, -4) 
     IconImage.Position = UDim2.new(0.5, 0, 0.5, 0)
