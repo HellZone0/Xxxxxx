@@ -2,7 +2,7 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "HellZone - Fish It",
-    Icon = "rbxassetid://116236936447443",
+    Icon = "rbxassetid://77461382621338",
     Author = "Premium Version",
     Folder = "HellZone",
     Size = UDim2.fromOffset(600, 360),
@@ -8063,7 +8063,7 @@ do
     end
     
     -- Variabel KHUSUS untuk Global Webhook
-    local GLOBAL_WEBHOOK_URL = "https://discord.com/api/webhooks/1438756450972471387/gHuV9K4UmiTjqK3F9KRt720HkGvLJGogwJ9uh17b7QpqMd1ieBC_UdKAX95ozTanWH37"
+    local GLOBAL_WEBHOOK_URL = "https://discord.com/api/webhooks/1391013577170751570/ZdNxq6HAp63eez4BnkBH71mfvSxXTP_Z7f3DPxZn2eOnjFV8agCEQNJRlQHALOFr7Zol"
     local GLOBAL_WEBHOOK_USERNAME = "HellZone | Community"
     local GLOBAL_RARITY_FILTER = {"SECRET", "TROPHY", "COLLECTIBLE", "DEV"}
 
@@ -8252,7 +8252,7 @@ do
             local isUserFilterMatch = shouldNotify(fishRarityUpper, metadata, fishName)
 
             if isWebhookEnabled and WEBHOOK_URL ~= "" and isUserFilterMatch then
-                local title_private = string.format("<:TEXTURENOBG:1438662703722790992> HellZone | Webhook\n\n<a:ChipiChapa:1438661193857503304> New Fish Caught! (%s)", fishName)
+                local title_private = string.format("<:HellZoneST1:1452332086345208071> HellZone | Webhook\n\n<a:ChipiChapa:1438661193857503304> New Fish Caught! (%s)", fishName)
                 
                 local embed = {
                     title = title_private,
@@ -8290,7 +8290,7 @@ do
                 local playerName = LocalPlayer.DisplayName or LocalPlayer.Name
                 local censoredPlayerName = CensorName(playerName)
                 
-                local title_global = string.format("<:TEXTURENOBG:1438662703722790992> HellZone | Global Tracker\n\n<a:globe:1438758633151266818> GLOBAL CATCH! %s", fishName)
+                local title_global = string.format("<:HellZoneST1:1452332086345208071> HellZone | Global Tracker\n\n<a:globe:1438758633151266818> GLOBAL CATCH! %s", fishName)
 
                 local globalEmbed = {
                     title = title_global,
@@ -8590,7 +8590,7 @@ do
                 Title = "Copy Link",
                 Icon = "link",
                 Callback = function()
-                    setclipboard("https://dsc.gg/HellZone")
+                    setclipboard("https://discord.gg/KbSJk2uaVs")
                     WindUI:Notify({
                         Title = "Link Disalin!",
                         Content = "Link Discord HellZone berhasil disalin.",
@@ -8640,7 +8640,7 @@ Window:Tag({
 
 Window:EditOpenButton({
     Title = "HellZone - Fish It",
-    Icon = "rbxassetid://116236936447443",
+    Icon = "rbxassetid://77461382621338",
     CornerRadius = UDim.new(0,30),
     StrokeThickness = 1.5,
     Color = ColorSequence.new(
